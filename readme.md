@@ -4,7 +4,7 @@
 
 *smallchange* is a program that *efficiently* solves the change counting problem. In other words, given an amount of currency units *N* and a list of denominations *D = [d_1, d_2, d_3,..., d_M]*, it will compute and output the number of ways *C(N,D)* to give change for *N* currency units in the given denominations, not counting solutions that only differ by order of coins.
 
-In principle, this is a well-known, easy dynamic programming problem, and there are many programs freely available that solve it. However, these standard solutions suffer from two grave problems:
+In principle, this is a well-known, easy dynamic programming problem, and there are many programs freely available that solve it. However, these standard solutions suffer from two *grave* problems:
 
 1. They have a runtime and memory complexity of *O(NM)*. This is fine for small instances, but becomes problematic if the user is, say, a national government trying to figure out the number of ways to give change for their budget.
 
