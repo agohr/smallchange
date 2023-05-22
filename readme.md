@@ -1,4 +1,5 @@
 # smallchange
+*Counting the number of ways to give change, one step at a time*
 
 ## Overview
 
