@@ -1,17 +1,18 @@
 # smallchange
-*Counting the number of ways to give change, many steps at a time*
+
+Update 23/5/2023 with supplementary information: After creating this repository, I became aware of a [2014 post in the blog *Computational Complexity*](https://blog.computationalcomplexity.org/2014/06/how-many-ways-can-you-make-change-of-n.html) by William Gasarch that discusses the same problem. The blog post traces closed-form solutions for the problem of counting the number of ways to make change back to at least the 1989 book *Concrete Mathematics* by Graham, Knuth and Patashnik. A 1989 implementation of one special case of their techniques, and discussion of yet another efficient approach to the problem is also included in the comments.
 
 ## Overview
 
 *smallchange* is a program that *efficiently* solves the change counting problem. In other words, given an amount of currency units *N* and a list of denominations *D = [d_1, d_2, d_3,..., d_M]*, it will compute and output the number of ways *C(N,D)* to give change for *N* currency units in the given denominations, not counting solutions that only differ by order of coins.
 
-In principle, this is a well-known, easy dynamic programming problem, and there are many programs freely available that solve it. However, these standard solutions suffer from two *grave* problems:
+In principle, this is a well-known, easy dynamic programming problem, and there are many implementations of this approach available that solve it. However, these standard solutions suffer from two *grave* problems:
 
 1. They have a runtime and memory complexity of *O(NM)*. This is fine for small instances, but becomes problematic if the user is, say, a national government trying to figure out the number of ways to give change for their budget.
 
 2. They do not give a human-verifiable proof of the results they print out.
 
-*smallchange* aims to improve upon these solutions on both *counts*.
+*smallchange* aims to improve upon the natural solution based on direct application of recursion and memoization on both counts.  
 
 ## Main Idea
 
