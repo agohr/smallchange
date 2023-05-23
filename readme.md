@@ -1,6 +1,6 @@
 # smallchange
 
-Update 23/5/2023 with supplementary information: After creating this repository, I became aware of a [2014 post in the blog *Computational Complexity*](https://blog.computationalcomplexity.org/2014/06/how-many-ways-can-you-make-change-of-n.html) by William Gasarch that discusses the same problem. The blog post traces closed-form solutions for the problem of counting the number of ways to make change back to at least the 1989 book *Concrete Mathematics* by Graham, Knuth and Patashnik. A 1989 implementation of one special case of their techniques, and discussion of yet another efficient approach to the problem is also included in the comments.
+Update 23/5/2023: After creating this repository, I became aware of a [2014 post in the blog *Computational Complexity*](https://blog.computationalcomplexity.org/2014/06/how-many-ways-can-you-make-change-of-n.html) by William Gasarch that discusses the same problem. The blog post traces closed-form solutions for the problem of counting the number of ways to make change back to at least the 1989 book *Concrete Mathematics* by Graham, Knuth and Patashnik. A 1989 implementation of one special case of their techniques, and discussion of yet another efficient approach to the problem is also included in the comments.
 
 ## Overview
 
